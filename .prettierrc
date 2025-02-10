@@ -3,5 +3,8 @@
   "useTabs": false,
   "semi": true,
   "singleQuote": true,
-  "trailingComma": "es5"
+  "trailingComma": "all",
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "endOfLine": "lf"
 }
