@@ -3,7 +3,7 @@ import { Controller, Post, Body, HttpException, HttpStatus } from '@nestjs/commo
 import { UserService } from './user.service';
 
 @Controller('/user')
-export class UsersController {
+export class UserController {
 	constructor(private userService: UserService) { }
 
 	@Post()
