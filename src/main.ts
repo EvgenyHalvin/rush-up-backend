@@ -6,7 +6,7 @@ async function bootstrap() {
   const user = await NestFactory.create(UserModule);
 
   user.enableCors({
-    origin: /^https:\/\/api\.rush-up-backend\.com(:\d+)?$/,
+    origin: /^https:\/\/([\w-]+\.)?rush-up\.com$/,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     credentials: true,
   });
